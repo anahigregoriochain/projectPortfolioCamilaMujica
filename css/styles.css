@@ -159,31 +159,36 @@ footer{
 }
 
 footer nav ul li{
-    text-decoration: none;
     list-style: none;
-    color: whitesmoke;
+}
+
+footer nav ul li a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
 }
 
 footer h5{
     color: whitesmoke;
+    font-size: 0.9rem;
 }
 
 footer a img{
-    width: 5%;
+    width: 4%;
 }
-
 footer div h6{
     text-decoration: none;
-    list-style: none;
     color: #80716E;
 }
 
 footer div h6 a{
+    font-size: 0;
     text-decoration: none;
-    list-style: none;
     color: #80716E;
 }
-
+footer p{
+    font-size: 0.7rem;
+}
  /*estilos mobile*/
 
 @media (min-width: 320px) and
