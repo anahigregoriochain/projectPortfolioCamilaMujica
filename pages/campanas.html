@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/logocm.png">
-
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/css/bootstrap.min.css">
     <!-- link estilos css -->
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Campañas - Camila Mujica </title>
 </head>
+
 <body>
     <header>
-    
+
         <!-- logo de la web -->
         <a href="../index.html">
-            <img src="../img/logocm.png" alt="logo" >
+            <img src="../img/logocm.png" alt="logo">
         </a>
         <!-- menu de navegacion -->
         <nav>
@@ -38,39 +47,74 @@
 
     <!-- contenido principal -->
     <main>
-        <section >
-            <h1 id="subtitulo"> Campañas </h1>
-            <a href="../index.html">
-               <img src="../img/bannerprincipaldos.png" alt="banner principal" width="1500px"> 
-            </a>
+        <div class="encabezado">
+            <div class="titulo">
+                <h1 id="subtitulo"> Campañas </h1>
+            </div>
+            <div class="banner">
+                <a href="index.html">
+                    <img src="../img/bannerprincipaldos.png" alt="banner principal" width="1500px">
+                </a>
+            </div>
+        </div>
+        <div id="menucampanas">
+            <ul>
+                <li>
+                    <a href="#clap">CLAP</a>
+                </li>
+                <li>
+                    <a href="#laentrerios">La entrerios</a>
+                </li>
+            </ul> 
+        </div>
+        
+        <section id="galeria" class="container">
+            <div class="text-center pt-5">
+                <h3 id="clap">CLAP</h3>
+                <p class="textos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat laboriosam magnam.
+                    Rerum omnis et molestias architecto libero culpa unde nam minima consectetur eos blanditiis</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="../img/clap1.jpg" alt="imagen uno">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/clap2.jpg" alt="imagen dos">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/clap3.jpg" alt="imagen tres">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/clap5.jpg" alt="imagen cuatro">
+                </div>
+            </div>
         </section>
-        <h2>Campañas</h2>
-        <ul>
-            <li>
-                <a href="#clap">Clap</a>
-            </li>
-            <li>
-                <a href="#laentrerios">La entrerios</a>
-            </li>
-        </ul>
-        <section class="campanas">
-            <h3 id="clap">Clap</h3>
-            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolor et consectetur, nisi saepe sunt, quas, molestias soluta qui tempora mollitia ipsum repudiandae sapiente enim atque dignissimos ipsa deleniti praesentium!</p>
-            <img src="../img/clap1.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/clap2.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/clap3.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/clap5.jpg" alt="fotografia" class="fotoscampañas">
-        </section>
-        <section class="campanas">
-            <h3 id="laentrerios">La entrerios</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolor et consectetur, nisi saepe sunt, quas, molestias soluta qui tempora mollitia ipsum repudiandae sapiente enim atque dignissimos ipsa deleniti praesentium!</p>
-            <img src="../img/laentrerios1.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/laentrerios2.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/laentrerios3.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/laentrerios4.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/laentrerios5.jpg" alt="fotografia" class="fotoscampañas">
-            <img src="../img/laentrerios6.JPG" alt="fotografia" class="fotoscampañas">
-            <img src="../img/IMG_9730_jpg.jpg" alt="fotografia" class="fotoscampañas">
+        <section id="galeria" class="container">
+            <div class="text-center pt-5">
+                <h3 id="laentrerios">La entrerios</h3>
+                <p class="textos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat laboriosam magnam.
+                    Rerum omnis et molestias architecto libero culpa unde nam minima consectetur eos blanditiis</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="../img/laentrerios1.jpg" alt="imagen uno">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/laentrerios3.jpg" alt="imagen dos">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/laentrerios2.jpg" alt="imagen tres">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/laentrerios4.jpg" alt="imagen cuatro">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/laentrerios5.jpg" alt="imagen cinco">
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/laentrerios6.JPG" alt="imagen seis">
+                </div>
+            </div>
         </section>
     </main>
 
@@ -92,7 +136,7 @@
                 </li>
             </ul>
         </nav>
-            
+
         <!-- redes sociales y derechos de autor -->
         <div>
             <h4>Contactame por redes sociales</h4>
@@ -101,26 +145,30 @@
                     <img src="../img/linkedin.png" alt="logo de linkedin">
                 </a>
                 <a href="https://www.facebook.com/ervbnbf" target="_blank">
-                    <img src="../img/facebook.png" alt="logo de facebook"> 
+                    <img src="../img/facebook.png" alt="logo de facebook">
                 </a>
                 <a href="https://instagram.com/camimujica15?igshid=YmMyMTA2M2Y=" target="_blank">
                     <img src="../img/instagram.png" alt="logo de instagram">
                 </a>
                 <a href="https://twitter.com/CamiiMujica" target="_blank">
-                    <img src="../img/twitter.png" alt="logo de twitter"> 
+                    <img src="../img/twitter.png" alt="logo de twitter">
                 </a>
                 <a href="https://www.youtube.com" target="_blank">
-                    <img src="../img/youtube.png" alt="logo de youtube"> 
+                    <img src="../img/youtube.png" alt="logo de youtube">
                 </a>
                 <!-- creditos de logos -->
                 <div>
                     <h6>
-                        Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect"> Pixel perfect </a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'</a>
+                        Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect"
+                            title="Pixel perfect"> Pixel perfect </a> from <a href="https://www.flaticon.es/"
+                            title="Flaticon">www.flaticon.es'</a>
                     </h6>
                 </div>
             </div>
             <h5>©2023 - Todos los derechos reservados | Anahi Chain</h5>
         </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
     </footer>
 </body>
+
 </html>
