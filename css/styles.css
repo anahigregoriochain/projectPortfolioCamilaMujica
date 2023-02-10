@@ -79,14 +79,12 @@ main{
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    
 }
 #menucampanas ul li a{
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    
 }
 
 #clap{
@@ -155,25 +153,34 @@ footer{
     color: whitesmoke;
     padding: 1rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 0.5rem;
     text-decoration: none;
     list-style: none;
 }
-footer nav ul li a{
+
+footer nav ul li{
     text-decoration: none;
-    color: rgb(28, 26, 26);
+    list-style: none;
+    color: whitesmoke;
 }
 
 footer h5{
     color: whitesmoke;
 }
+
+footer a img{
+    width: 5%;
+}
+
 footer div h6{
     text-decoration: none;
+    list-style: none;
     color: #80716E;
 }
 
 footer div h6 a{
     text-decoration: none;
+    list-style: none;
     color: #80716E;
 }
 
